@@ -4,24 +4,28 @@
 
 ## Table of contents
 
-1) [How to add python packages to Jupyter](#how-to-add-python-packages-to-jupyter)
-   1) [Via virtual environments](#via-virtual-environments)
-   2) [Via miniconda](#via-miniconda)
-2) [How to update the python version](#how-to-update-the-python-version)
-3) [How to use R in Jupyter](#how-to-use-r-in-jupyter)
+1. [How to add python packages to Jupyter](#how-to-add-python-packages-to-jupyter)
+   1. [Via virtual environments](#via-virtual-environments)
+   2. [Via miniconda](#via-miniconda)
+2. [How to update the python version](#how-to-update-the-python-version)
+3. [How to use R in Jupyter](#how-to-use-r-in-jupyter)
 
 ## How to add python packages to Jupyter
 
 ### Via virtual environments
 
-1) Open a terminal and type:
-   ```
-   python3 -m venv <myEnv>
-   ```
-1) Activate your environment:
-   ```
-   source <myEnv>/bin/activate
-   ```
+1. Open a terminal and type:
+   
+```
+python3 -m venv <myEnv>
+```
+
+2. Activate your environment:
+   
+```
+source <myEnv>/bin/activate
+```
+
 2) Install your packages:
    ```
    pip install -U pip
