@@ -5,8 +5,8 @@
 ## Table of contents
 
 1. [How to add python packages to Jupyter](#how-to-add-python-packages-to-jupyter)
-   1. [Via virtual environments](#via-virtual-environments)
-   2. [Via miniconda](#via-miniconda)
+	1. [Via virtual environments](#via-virtual-environments)
+	2. [Via miniconda](#via-miniconda)
 2. [How to update the python version](#how-to-update-the-python-version)
 3. [How to use R in Jupyter](#how-to-use-r-in-jupyter)
 
