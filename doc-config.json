@@ -1,9 +1,11 @@
 {
     "url_prefix":"https://raw.githubusercontent.com/cevinclein/bwviscodf/main",
-    "index_name":"section",
     "doc_title":"User Doc.",
     "section_names": {
-        "jup":"Jupyters",
-        "vis":"Vistles"
+        "getting_started":"Getting started",
+        "basic_navigation":"Basic navigation",
+        "jupyterlab":"JupyterLab",
+        "rstudio":"RStudio",
+        "ki_morph":"KIMorph "
     }
 }
