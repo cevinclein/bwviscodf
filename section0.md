@@ -1,5 +1,7 @@
 # Jupyter User Guide
 
+---
+
 ## Table of contents
 
 1) [How to add python packages to Jupyter](#how-to-add-python-packages-to-jupyter)
