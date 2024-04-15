@@ -1,5 +1,5 @@
 {
-    "url_prefix":"https://raw.githubusercontent.com/cevinclein/bwviscodf/main/",
+    "url_prefix":"https://raw.githubusercontent.com/cevinclein/bwviscodf/main",
     "index_name":"section",
     "section_names":["Jupyter", "Vistle"]
 }
