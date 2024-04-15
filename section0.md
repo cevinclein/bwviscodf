@@ -28,11 +28,14 @@ python3 -m venv <myEnv>
 source <myEnv>/bin/activate
 ```
 
-2) Install your packages:
-   ```
-   pip install -U pip
-   pip install <mypackage>
-   ```
+2. Install your packages:
+	``` python
+   	pip install -U pip
+   	pip install <mypackage>
+	
+	def reg():
+		if i == 0: gf = 1
+   	```
 3) Install the ipykernel package:
    ```
    pip install ipykernel
