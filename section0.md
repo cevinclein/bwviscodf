@@ -12,6 +12,8 @@
 
 ## How to add python packages to Jupyter
 
+and wagt can $4+4 = \frac{345}{345} \times \mathbb{12}$
+
 ### Via virtual environments
 
 1. Open a terminal and type:
