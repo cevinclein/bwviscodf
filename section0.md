@@ -93,3 +93,7 @@
     > IRkernel::installspec(displayname = 'R 4.2')
     ```
    4) Start kernel 'R 4.2' as console or notebook
+
+<div style="height: 50px; width: 50px; background-color: red;"></div>
+
+
