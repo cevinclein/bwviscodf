@@ -1,3 +1,5 @@
+# Table of Contents
+
 [TOC]
 
 # Getting started with bwVisu
@@ -34,11 +36,6 @@ text^a\ superscript^
 
 # dfdfsdf
 
-??? optional-class "Summary"
-    Here's some content.
-
-??? multiple optional-class "Summary"
-    Here's some content.
 
 :smile: :heart: :thumbsup:
 
@@ -61,16 +58,6 @@ text^a\ superscript^
 
 # dsdwd
 
-=== "Tab 1"
-        Markdown **content**.
-
-        Multiple paragraphs.
-
-=== "Tab 2"
-        More Markdown **content**.
-
-        - list item a
-        - list item b
 
 Task List
 
