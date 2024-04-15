@@ -56,8 +56,8 @@ text^a\ superscript^
 > dwdwdwdw
 > dwdwdwdwdwdwd
 > wdwdwdddddddddddwdwd
-        > dwdwd wdw dw dw d w dw dwd
-        > dwdwdwdwdwdwd
+>        > dwdwd wdw dw dw d w dw dwd
+>        > dwdwdwdwdwdwd
 
 # dsdwd
 
@@ -93,9 +93,9 @@ text~a\ subscript~
 
 1. swsws
 2. wswws
-   1. swswws
-   2. dwdw
-   3. dwwd
+        1. swswws
+        2. dwdw
+        3. dwwd
 3. ssss
 4. ssss
 
