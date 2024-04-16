@@ -10,8 +10,8 @@ This is some text $a^2 + b^2 = 3$ and then this text can be rendered
 as `with t()` and none can do that:
 
 \begin{equation}
-\f \relax{x} = \int_{-\infty}^\infty
-    \f\hat\xi\,e^{2 \pi i \xi x}
+f(x)  = \int_{-\infty}^\infty
+    f\hat\xi\,e^{2 \pi i \xi x}
     \,d\xi
 \end{equation}
 
