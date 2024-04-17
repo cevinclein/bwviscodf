@@ -17,7 +17,7 @@ f(x)  = \int_{-\infty}^\infty
 
 Now define some code:
 
-``` cpp
+```{.cpp linenums="1"}
 
 int main(){
     return 0
