@@ -26,6 +26,7 @@ The bwVisu project provides such a remote service for scientists from Baden-Wür
 bwVisu is based on [Open Ondemand](https://openondemand.org) an open-source software platform designed to provide easy and streamlined access to high-performance computing (HPC) resources. Developed by the Ohio Supercomputer Center, it allows users to access HPC resources via a standard web browser, eliminating the need for a traditional command line interface.
 
 The platform provides a range of tools and features, including:
+
 1. **Web-based Access:** Users can manage jobs, files, and data directly through their browser.
 2. **Interactive Applications:** It supports GUI-based applications like MATLAB, Jupyter Notebooks, and RStudio, enabling interactive computing and visualization.
 3. **Job Management:** Users can easily submit, monitor, and manage their computing jobs on HPC resources.
