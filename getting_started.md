@@ -16,9 +16,9 @@ The bwVisu project provides such a remote service for scientists from Baden-Wür
 **In order to get started with bwVisu, please proceed as follows:**
 
 * In order to use bwVisu, it is required to be a user of the [bwForCluster Helix](https://wiki.bwhpc.de/e/Registration/bwForCluster) or a user of [SDS@hd](https://wiki.bwhpc.de/e/SDS@hd/Registration).
-* Register for the service bwVisu at [http://bwservices.uni-heidelberg.de](http://bwservices.uni-heidelberg.de). It is required to set a service password. Once a service password is set, use this password for the bwVisu login later on. It is also mandatory to register a token for two factor authentication at the bwservices site. More information about registering a token can be found [here](https://wiki.bwhpc.de/e/Registration/2FA).
+* Register for the service bwVisu at http://bwservices.uni-heidelberg.de. It is required to set a service password. Once a service password is set, use this password for the bwVisu login later on. It is also mandatory to register a token for two factor authentication at the bwservices site. More information about registering a token can be found [here](https://wiki.bwhpc.de/e/Registration/2FA).
 * Once your registration has been completed, the bwVisu system will set up your user account. This can take up to 10 minutes, so please wait for around ten minutes before proceeding.
-* Log in to the bwVisu web frontend at [https://bwvisu-web.urz.uni-heidelberg.de](https://bwvisu-web.urz.uni-heidelberg.de). Your username will be `<site-prefix>_<uni-id>`, e.g. `hd_ab123` for a user from Heidelberg. The password will be your bwVisu service password set at `bwservices.uni-heidelberg.de`, and your registered device will be used as second factor.
+* Log in to the bwVisu web frontend at https://bwvisu-web.urz.uni-heidelberg.de. Your username will be `<site-prefix>_<uni-id>`, e.g. `hd_ab123` for a user from Heidelberg. The password will be your bwVisu service password set at `bwservices.uni-heidelberg.de`, and your registered device will be used as second factor.
 
 ## 2.1 Open Ondemand
 ---
@@ -40,11 +40,21 @@ Open OnDemand aims to democratize access to supercomputing by making it more app
 bwVisu is developed by:
 
 <div>
-  <img src="bwVisu-Wiki/images/unihd.png" height="50" widht="100">
-  <img src="bwVisu-Wiki/images/hlrs.png" height="50" widht="100">
-  <img src="bwVisu-Wiki/images/kit.png" height="50" widht="100">
-  <img src="bwVisu-Wiki/images/mwk.png" height="50" widht="100">
+  <img src="bwVisu-Wiki/images/unihd.png" height="80" widht="150">
+  <img src="bwVisu-Wiki/images/hlrs.png" height="80" widht="150">
+  <img src="bwVisu-Wiki/images/kit.png" height="80" widht="150">
 </div>
+
+# 4. Acknowledgements
+---
+
+We gratefully acknowledge funding by: 
+
+<img src="bwVisu-Wiki/images/mwk.png" height="80" widht="150">
+
+# Impressum
+
+https://www.urz.uni-heidelberg.de/de/Impressum
 
 
 
