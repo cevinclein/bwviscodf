@@ -41,12 +41,13 @@ Open OnDemand aims to democratize access to supercomputing by making it more app
 
 bwVisu is developed by:
 
+/// group
+
 ![unihd](bwVisu-Wiki/images/unihd.png){height="80" widht="150"}
-
 ![hlrs](bwVisu-Wiki/images/hlrs.png){height="80" widht="150"}
-
 ![kit](bwVisu-Wiki/images/kit.png){height="80" widht="150"}
 
+///
 
 # 4. Acknowledgements
 ---
