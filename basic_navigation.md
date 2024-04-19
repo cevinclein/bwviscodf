@@ -1,104 +1,21 @@
-[TOC]
-
-# Getting started with bwVisu
+# Table of Contents
 ---
 
-This is some text $a^2 + b^2 = 3$ and then this text can be rendered
-as `with t()` and none can do that:
+[TOC]
 
-\begin{equation}
-\f\relax{x} = \int_{-\infty}^\infty
-    \f\hat\xi\,e^{2 \pi i \xi x}
-    \,d\xi
-\end{equation}
+# 1. Overview 
+---
 
-Now define some code:
+bwVisu is quite simple and intuitively designed to make launching apps on the cluster as user-friendly as possible. Once you have successfully logged into bwVisu, the first thing you see is the dashboard. The dashboard presents a selection of available apps that the user can launch.
 
-``` cpp
+<figure>
+  <img src="bwVisu-Wiki/images/bwVisu_panel.png" alt="bwVisu-Panel" style="width:60%">
+  <figcaption><strong>Fig.1.</strong> All options in the bwVisu nav-bar</figcaption>
+</figure>
 
-int main(){
-    return 0
-}
+In the navigation bar, the user has the following options:
 
-```
-
-## New section
-
-***I'm italic and bold* I am just bold.**
-
-***I'm bold and italic!** I am just italic.*
-
-H^2^0
-
-text^a\ superscript^
-
-# dfdfsdf
-
-??? optional-class "Summary"
-    Here's some content.
-
-??? multiple optional-class "Summary"
-    Here's some content.
-
-:smile: :heart: :thumbsup:
-
-++ctrl+alt+delete++
-
-## bbbb
-
-- Just paste links directly in the document like this: https://google.com.
-- Or even an email address: fake.email@email.com.
-
-
-# asasas
-
-> dwdw dwdwdw dwdw dw
-> dwdwdwdw
-> dwdwdwdwdwdwd
-> wdwdwdddddddddddwdwd
-    > dwdwd wdw dw dw d w dw dwd
-    dwdwdwdwdwdwd
-
-# dsdwd
-
-=== "Tab 1"
-    Markdown **content**.
-
-    Multiple paragraphs.
-
-=== "Tab 2"
-    More Markdown **content**.
-
-    - list item a
-    - list item b
-
-Task List
-
--   [X] item 1
-    *   [X] item A
-    *   [ ] item B
-        more text
-        +   [x] item a
-        +   [ ] item b
-        +   [x] item c
-    *   [X] item C
--   [ ] item 2
--   [ ] item 3
-
-CH~3~CH~2~OH
-
-text~a\ subscript~
-
-# sssss
-
-1. swsws
-2. wswws
-   1. swswws
-   2. dwdw
-   3. dwwd
-3. ssss
-4. ssss
-
-==mark me==
-
-==smart==mark==
+- **Files:** Here, the user has access to their home directory. In a graphical user interface, files can be downloaded and uploaded, and new files and folders can be created.
+- **Interactive apps:** This displays the apps that the user can run on the cluster, possibly across multiple nodes. These apps initiate an interactive session which the user can directly connect to and, depending on the app, receive a graphical interface.
+- **All Apps**: This shows all available apps.
+- **My Interactive Sessions**: At bwVisu, it is possible to start several interactive apps simultaneously. Here, one can view an overview of currently running interactive apps or even completed sessions. It is also possible to view the log for each session.
