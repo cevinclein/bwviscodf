@@ -28,13 +28,44 @@ If you click on the file menu, you will get two options:
 - Home Directory
 - OOD Config
 
-The most relevant is access to the Home Directory because that's where results and logs from the apps are stored.
-The user gets the following interface:
+The most relevant is access to the Home Directory because that's where results and logs from the apps are stored. The user gets the following interface:
 
 <figure>
   <img src="bwVisu-Wiki/images/bwVisu_files.png" alt="bwVisu-files" style="width:60%">
   <figcaption><strong>Fig.2.</strong> This is the Home Directory on the Cluster for each user.</figcaption>
 </figure>
 
-The user interface is largely self-explanatory. However, an important note is that one can only access corners and 
-files if they have the appropriate rights.
+The user interface is largely self-explanatory. However, an important note is that one can only access corners and files if they have the appropriate rights.
+
+# 3. Interactive Apps
+---
+
+When the user starts an interactive app, they receive an interface to configure which resources the app should use on the cluster. It is important to note that the interface can differ per app because each app can have individual configuration options.
+
+<figure>
+  <img src="bwVisu-Wiki/images/bwVisu_rstudio.png" alt="bwVisu-rstudio" style="width:60%">
+  <figcaption><strong>Fig.3.</strong> Set the cluster specs for the App.</figcaption>
+</figure>
+
+Launching an app can take some time depending on the requested resources and cluster utilization. Upon successful launch of the app, you should get the following interface to connect with the app:
+
+<figure>
+  <img src="bwVisu-Wiki/images/bwVisu_rstudio_run.png" alt="bwVisu-rstudio-run" style="width:60%">
+  <figcaption><strong>Fig.4.</strong> A list item of the running App.</figcaption>
+</figure>
+
+- **Host:** Indicates on which nodes the application is running.
+- **Time Remaining:** Each application is given a time limit, which can also be set in advance. In this example, the application is supposed to run for one hour.
+- **Session ID:** This is a link that leads to the folder of the session. Among other things, application logs are displayed here, which can be viewed in the UI.
+
+To terminate an application, you can click the delete button or end the application in the interactive session. If the app is terminated in the interactive session, the window no longer shows `Running` but `Completed`. With the `Delete` button, you end the session and also remove the list entry from `My Interactive Sessions`.
+
+# 3.1 All Apps
+---
+
+In this section on the nav-bar you can find an overview of all available apps. Here you can search for specific apps by name or sort them if desired.
+
+# 4. My Interactive Sessions
+---
+
+In this section, you will get an overview of all ongoing and completed applications that were launched on the cluster. As soon as one starts an interactive app, one is automatically redirected here. Even if you log out of bwVisu and log back in, you can still see the information and logs from the finished interactive apps here until you delete it.
