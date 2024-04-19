@@ -6,7 +6,7 @@
 # 1. Intro 
 ---
 
-<img src="bwVisu-Wiki/images/bwVisu_concept.svg"></img>
+<img src="bwVisu-Wiki/images/bwVisu_concept.svg" style="width: 80%">
 
 When large quantities of scientific data is created (for example, from simulations), it is often necessary to employ hardware for further processing that is just as powerful as e.g. the HPC cluster that created the data in the first place. Transferring the data to a local workstation for visualization and analysis is typically not only time-consuming because of the data transfer itself, but the workstation may be ill-equipped to handle the workload. For such scenarios, remote solutions are needed, that employ powerful hardware and bring the applications to the data - and not vice versa.
 
