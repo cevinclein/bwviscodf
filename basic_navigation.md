@@ -60,7 +60,7 @@ Launching an app can take some time depending on the requested resources and clu
 
 To terminate an application, you can click the delete button or end the application in the interactive session. If the app is terminated in the interactive session, the window no longer shows `Running` but `Completed`. With the `Delete` button, you end the session and also remove the list entry from `My Interactive Sessions`.
 
-# 3.1 All Apps
+## 3.1 All Apps
 ---
 
 In this section on the nav-bar you can find an overview of all available apps. Here you can search for specific apps by name or sort them if desired.
