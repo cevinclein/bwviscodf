@@ -40,9 +40,9 @@ Than specify the resources and click `Launch`. This will open JupyterLab in your
 # Working with Notebooks
 ---
 
-You can create a new notebook via the ++"+"++ button in the file browser or the `File` menu. Enter your code in a cell, and press ++shift+enter++ to execute the code in that cell. Every cell accepts valid code and module imports. Example Python code:
+You can create a new notebook via the `+` button in the file browser or the `File` menu. Enter your code in a cell, and press ++shift+enter++ to execute the code in that cell. Every cell accepts valid code and module imports. Example Python code:
 
-```{.python linenums="1"}
+```{.python linenums="1" title="Python"}
 from matplotlib import pyplot as plt
 import numpy as np
 
