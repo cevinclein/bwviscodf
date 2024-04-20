@@ -8,10 +8,7 @@
 
 bwVisu is quite simple and intuitively designed to make launching apps on the cluster as user-friendly as possible. Once you have successfully logged into bwVisu, the first thing you see is the dashboard. The dashboard presents a selection of available apps that the user can launch.
 
-<figure>
-  <img src="bwVisu-Wiki/images/bwVisu_panel.png" alt="bwVisu-Panel" style="width:60%">
-  <figcaption><strong>Fig.1.</strong> All options in the bwVisu nav-bar.</figcaption>
-</figure>
+![bwVisu-Panel](bwVisu-Wiki/images/bwVisu_panel.png){.responsive}
 
 In the navigation bar, the user has the following options:
 
@@ -30,10 +27,7 @@ If you click on the file menu, you will get two options:
 
 The most relevant is access to the Home Directory because that's where results and logs from the apps are stored. The user gets the following interface:
 
-<figure>
-  <img src="bwVisu-Wiki/images/bwVisu_files.png" alt="bwVisu-files" style="width:60%">
-  <figcaption><strong>Fig.2.</strong> This is the Home Directory on the Cluster for each user.</figcaption>
-</figure>
+![bwVisu-files](bwVisu-Wiki/images/bwVisu_files.png){.responsive}
 
 The user interface is largely self-explanatory. However, an important note is that one can only access corners and files if they have the appropriate rights.
 
@@ -42,17 +36,11 @@ The user interface is largely self-explanatory. However, an important note is th
 
 When the user starts an interactive app, they receive an interface to configure which resources the app should use on the cluster. It is important to note that the interface can differ per app because each app can have individual configuration options.
 
-<figure>
-  <img src="bwVisu-Wiki/images/bwVisu_rstudio.png" alt="bwVisu-rstudio" style="width:60%">
-  <figcaption><strong>Fig.3.</strong> Set the cluster specs for the App.</figcaption>
-</figure>
+![bwVisu-rstudio](bwVisu-Wiki/images/bwVisu_rstudio.png){.responsive}
 
 Launching an app can take some time depending on the requested resources and cluster utilization. Upon successful launch of the app, you should get the following interface to connect with the app:
 
-<figure>
-  <img src="bwVisu-Wiki/images/bwVisu_rstudio_run.png" alt="bwVisu-rstudio-run" style="width:60%">
-  <figcaption><strong>Fig.4.</strong> A list item of the running App.</figcaption>
-</figure>
+![bwVisu-rstudio-run](bwVisu-Wiki/images/bwVisu_rstudio_run.png){.responsive}
 
 - **Host:** Indicates on which nodes the application is running.
 - **Time Remaining:** Each application is given a time limit, which can also be set in advance. In this example, the application is supposed to run for one hour.
