@@ -1,104 +1,28 @@
+**Table of Contents**
+
 [TOC]
 
-# Getting started with bwVisu
+# Introduction to KI-Morph
 ---
 
-This is some text $a^2 + b^2 = 3$ and then this text can be rendered
-as `with t()` and none can do that:
+[KI-Morph](https://emcl.iwr.uni-heidelberg.de/research/projects/ki-morph) is a research project that aims to solve a big problem in biological research. When scientists use X-ray tomography to create 3D images of biological specimens—like parts of cells or whole organs—they generate a lot of data. Although it's relatively quick to take these 3D images, analyzing them can take a lot of time because it's usually done by hand.
 
-\begin{equation}
-\f\relax{x} = \int_{-\infty}^\infty
-    \f\hat\xi\,e^{2 \pi i \xi x}
-    \,d\xi
-\end{equation}
+## Automating Analysis
+---
 
-Now define some code:
+KI-Morph is working on developing a system that can automatically process and analyze these large sets of image data. This means instead of researchers spending hours, days, or even weeks looking through the images and interpreting them, the system would handle much of this work, speeding up the whole process.
 
-``` cpp
+## Handling Huge Amounts of Data
+---
 
-int main(){
-    return 0
-}
+The project focuses on creating a framework that can work with extremely large amounts of data &mdash; up to petabytes. To put this in perspective, one petabyte is equivalent to about 1,000 terabytes or 1,000,000 gigabytes. Handling this much data efficiently is a significant challenge.
 
-```
+# Starting KI-Morph
+---
 
-## New section
+On the bwVisu nav-bar click `Interactive Apps` --> `KI-Morph`. Than specify the resources and click `Launch`. This will open KI-Morph in your current web browser.
 
-***I'm italic and bold* I am just bold.**
+# Contact
+---
 
-***I'm bold and italic!** I am just italic.*
-
-H^2^0
-
-text^a\ superscript^
-
-# dfdfsdf
-
-??? optional-class "Summary"
-    Here's some content.
-
-??? multiple optional-class "Summary"
-    Here's some content.
-
-:smile: :heart: :thumbsup:
-
-++ctrl+alt+delete++
-
-## bbbb
-
-- Just paste links directly in the document like this: https://google.com.
-- Or even an email address: fake.email@email.com.
-
-
-# asasas
-
-> dwdw dwdwdw dwdw dw
-> dwdwdwdw
-> dwdwdwdwdwdwd
-> wdwdwdddddddddddwdwd
-    > dwdwd wdw dw dw d w dw dwd
-    dwdwdwdwdwdwd
-
-# dsdwd
-
-=== "Tab 1"
-    Markdown **content**.
-
-    Multiple paragraphs.
-
-=== "Tab 2"
-    More Markdown **content**.
-
-    - list item a
-    - list item b
-
-Task List
-
--   [X] item 1
-    *   [X] item A
-    *   [ ] item B
-        more text
-        +   [x] item a
-        +   [ ] item b
-        +   [x] item c
-    *   [X] item C
--   [ ] item 2
--   [ ] item 3
-
-CH~3~CH~2~OH
-
-text~a\ subscript~
-
-# sssss
-
-1. swsws
-2. wswws
-   1. swswws
-   2. dwdw
-   3. dwwd
-3. ssss
-4. ssss
-
-==mark me==
-
-==smart==mark==
+- [Alexander Zeilmann](https://emcl.iwr.uni-heidelberg.de/people/zeilmann-alexander)

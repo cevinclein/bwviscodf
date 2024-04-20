@@ -5,7 +5,7 @@
 # Introduction to JupyterLab
 ---
 
-Jupyter and offers a flexible and powerful toolkit for working with projects involving Jupyter notebooks, code, and data. This guide will cover all the essentials to get you started with JupyterLab, including detailed steps and examples.
+[Jupyter](https://jupyter.org/) and offers a flexible and powerful toolkit for working with projects involving Jupyter notebooks, code, and data. This guide will cover all the essentials to get you started with JupyterLab, including detailed steps and examples.
 
 ## What is JupyterLab?
 ---

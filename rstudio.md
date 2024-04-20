@@ -5,7 +5,7 @@
 # Introduction to RStudio
 ---
 
-RStudio is an IDE that supports the development and execution of R, a programming language for statistical computing and graphics. It enhances R's user experience by providing an organized workspace with tools for plotting, history, debugging, and workspace management. RStudio primarily supports the R programming language. However, it does provide integrated support for several other languages through various means, especially in the context of R Markdown documents and Shiny applications. 
+[RStudio](https://posit.co/download/rstudio-server/) is an IDE that supports the development and execution of R, a programming language for statistical computing and graphics. It enhances R's user experience by providing an organized workspace with tools for plotting, history, debugging, and workspace management. RStudio primarily supports the R programming language. However, it does provide integrated support for several other languages through various means, especially in the context of R Markdown documents and Shiny applications. 
 
 ## Key features
 ---
