@@ -93,35 +93,26 @@ f(x)  = \int_{-\infty}^\infty
 ---
 
 1. Open a terminal and type:
-   
-```bash
-python3 -m venv <myEnv>
-```
-
-2. Activate your environment:
-   
-```bash
-source <myEnv>/bin/activate
-```
-
-3. Install your packages:
-   
-```bash
-pip install -U pip
-pip install <mypackage>
-```
-
-4. Install the ipykernel package:
-   
-```bash
-pip install ipykernel
-```
-
+    ```bash
+    python3 -m venv <myEnv>
+    ```
+2. Activate your environment: 
+    ```bash
+    source <myEnv>/bin/activate
+    ```
+3. Install your packages:  
+    ```bash
+    pip install -U pip
+    pip install <mypackage>
+    ```
+4. Install the ipykernel package: 
+    ```bash
+    pip install ipykernel
+    ```
 5. Register your virtual environment as custom kernel to Jupyter:
-
-```bash
-python3 -m ipykernel install --user --name=<myKernel>
-```
+    ```bash
+    python3 -m ipykernel install --user --name=<myKernel>
+    ```
 
 ## Add packages via miniconda
 ---
