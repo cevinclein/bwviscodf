@@ -1,9 +1,8 @@
-&#8962; / bwVisu Wiki: Getting started
+&#8962;  /  bwVisu Wiki: Getting started
 
 ---
 
 # Table of Contents
----
 
 [TOC]
 
