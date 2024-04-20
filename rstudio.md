@@ -88,3 +88,11 @@ shinyApp(ui = ui, server = server)
 ```
 
 Shiny is particularly well-suited for turning statistical analyses into interactive visualization apps, which can be an excellent way for data scientists to communicate their findings non-technically.
+
+# Package Development
+---
+
+Studio supports the development of R packages, providing tools to:
+
+- **Build, Test, and Document Packages:** Simplify the process of package creation with integrated tools for testing and documenting your code.
+- **Roxygen2 Integration:** Use Roxygen2 comments for easier documentation of functions and data.
