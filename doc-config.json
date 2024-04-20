@@ -5,7 +5,6 @@
         "basic_navigation":"Basic navigation",
         "jupyterlab":"JupyterLab",
         "rstudio":"RStudio",
-        "ki_morph":"KI-Morph",
-        "testpage":"Test-Page"
+        "ki_morph":"KI-Morph"
     }
 }
