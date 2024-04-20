@@ -157,8 +157,12 @@ f(x)  = \int_{-\infty}^\infty
     ```
 5. Select your newly created kernel in Jupyter
 
-## How to use R in Jupyter
+## Multi-Language Support
 ---
+
+JupyterLab supports over 40 programming languages including Python, R, Julia, and Scala. This is achieved through the use of different kernels, which are implementations of the Jupyter notebook environment for each language. You can switch between kernels easily, allowing you to use the best tool for a specific task.
+
+Example of switching kernels in a notebook:
 
 1. On the cluster:
     ```
@@ -176,8 +180,20 @@ f(x)  = \int_{-\infty}^\infty
     ```
     4. Start kernel 'R 4.2' as console or notebook
 
+# Real-Time Collaboration
+---
 
+JupyterLab supports real-time collaboration features, allowing multiple users to edit documents simultaneously. This feature is similar to collaborative editing in Google Docs but is designed for code, notebooks, and data. This is particularly useful for teams working on data analysis, machine learning models, or scientific research.
 
+# Interactive Widgets
+---
 
+JupyterLab supports interactive widgets that can create UI controls for interactive data visualization and manipulation within the notebooks. Example of using an interactive widget:
 
+```{.python linenums="1" title="Python"}
+from ipywidgets import IntSlider
+slider = IntSlider()
+display(slider)
+```
 
+These widgets can be sliders, dropdowns, buttons, etc., which can be connected to Python code running in the backend.
