@@ -2,7 +2,7 @@
 
 [TOC]
 
-# 1. Overview 
+# Overview 
 ---
 
 bwVisu is quite simple and intuitively designed to make launching apps on the cluster as user-friendly as possible. Once you have successfully logged into bwVisu, the first thing you see is the dashboard. The dashboard presents a selection of available apps that the user can launch.
@@ -16,7 +16,7 @@ In the navigation bar, the user has the following options:
 - **All Apps**: This shows all available apps.
 - **My Interactive Sessions**: At bwVisu, it is possible to start several interactive apps simultaneously. Here, one can view an overview of currently running interactive apps or even completed sessions. It is also possible to view the log for each session.
   
-# 2. Files
+# Files
 ---
 
 If you click on the file menu, you will get two options:
@@ -30,7 +30,7 @@ The most relevant is access to the Home Directory because that's where results a
 
 The user interface is largely self-explanatory. However, an important note is that one can only access corners and files if they have the appropriate rights.
 
-# 3. Interactive Apps
+# Interactive Apps
 ---
 
 When the user starts an interactive app, they receive an interface to configure which resources the app should use on the cluster. It is important to note that the interface can differ per app because each app can have individual configuration options.
@@ -47,12 +47,12 @@ Launching an app can take some time depending on the requested resources and clu
 
 To terminate an application, you can click the delete button or end the application in the interactive session. If the app is terminated in the interactive session, the window no longer shows `Running` but `Completed`. With the `Delete` button, you end the session and also remove the list entry from `My Interactive Sessions`.
 
-## 3.1 All Apps
+## All Apps
 ---
 
 In this section on the nav-bar you can find an overview of all available apps. Here you can search for specific apps by name or sort them if desired.
 
-# 4. My Interactive Sessions
+# My Interactive Sessions
 ---
 
 In this section, you will get an overview of all ongoing and completed applications that were launched on the cluster. As soon as one starts an interactive app, one is automatically redirected here. Even if you log out of bwVisu and log back in, you can still see the information and logs from the finished interactive apps here until you delete it.

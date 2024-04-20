@@ -2,7 +2,7 @@
 
 [TOC]
 
-# 1. Intro 
+# Intro 
 ---
 
 ![bw_concept](bwVisu-Wiki/images/bwVisu_concept.svg){.responsive}
@@ -11,7 +11,7 @@ When large quantities of scientific data is created (for example, from simulatio
 
 The bwVisu project provides such a remote service for scientists from Baden-Württemberg as well as the corresponding software stack to deploy such a service on-premise. In bwVisu, the user can log in to an intuitive web frontend which manages interactive jobs running on an HPC cluster. Once a job has been started, the user can connect to it such that the application appears in a browser window with full 3D hardware acceleration provided by the cluster. The only requirement on the client side is that the browser must support HTML5.
 
-# 2. Getting started with bwVisu
+# Getting started with bwVisu
 ---
 
 **In order to get started with bwVisu, please proceed as follows:**
@@ -21,7 +21,7 @@ The bwVisu project provides such a remote service for scientists from Baden-Wür
 * Once your registration has been completed, the bwVisu system will set up your user account. This can take up to 10 minutes, so please wait for around ten minutes before proceeding.
 * Log in to the bwVisu web frontend at https://bwvisu-web.urz.uni-heidelberg.de. Your username will be `<site-prefix>_<uni-id>`, e.g. `hd_ab123` for a user from Heidelberg. The password will be your bwVisu service password set at `bwservices.uni-heidelberg.de`, and your registered device will be used as second factor.
 
-## 2.1 Open Ondemand
+## Open Ondemand
 ---
 
 bwVisu is based on [Open Ondemand](https://openondemand.org) an open-source software platform designed to provide easy and streamlined access to high-performance computing (HPC) resources. Developed by the Ohio Supercomputer Center, it allows users to access HPC resources via a standard web browser, eliminating the need for a traditional command line interface.
@@ -35,7 +35,7 @@ The platform provides a range of tools and features, including:
 
 Open OnDemand aims to democratize access to supercomputing by making it more approachable and manageable for researchers, educators, and students.
 
-# 3. About
+# About
 ---
 
 bwVisu is developed by:
@@ -48,7 +48,7 @@ bwVisu is developed by:
 
 ///
 
-# 4. Acknowledgements
+# Acknowledgements
 ---
 
 We gratefully acknowledge funding by: 
@@ -56,7 +56,7 @@ We gratefully acknowledge funding by:
 ![mwk](bwVisu-Wiki/images/mwk.png){height="80" widht="150"}
 
 
-## 4.1 bwVisu Acknowledgement
+## bwVisu Acknowledgement
 ---
 
 When preparing a publication describing work that involved the usage of bwVisu, please ensure that you reference the bwVisu project. The following sample text is suggested as a starting point:
@@ -75,7 +75,7 @@ Such recognition is important for acquiring funding for the next generation hard
 
 The publications will be referenced on the bwVisu website.
 
-# 5. Impressum
+# Impressum
 ---
 
 https://www.urz.uni-heidelberg.de/de/Impressum
