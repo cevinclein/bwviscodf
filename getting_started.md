@@ -1,4 +1,4 @@
-&#8962;  /  bwVisu Wiki: Getting started
+&#8962;&nbsp;&nbsp;/&nbsp;&nbsp;bwVisu Wiki: Getting started <!--header-->
 
 ---
 
