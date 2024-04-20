@@ -1,7 +1,3 @@
-&#8962;&nbsp;&nbsp;/&nbsp;&nbsp;bwVisu Wiki: Getting started <!--header-->
-
----
-
 **Table of Contents**
 
 [TOC]
