@@ -18,11 +18,9 @@ f(x)  = \int_{-\infty}^\infty
 Now define some code:
 
 ```{.cpp linenums="1"}
-
 int main(){
     return 0
 }
-
 ```
 
 ## New section
