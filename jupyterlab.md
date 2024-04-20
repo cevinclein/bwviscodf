@@ -161,7 +161,7 @@ f(x)  = \int_{-\infty}^\infty
 ---
 
 1. On the cluster:
-   ```
+    ```
     $ module load math/R
     $ R
     > install.packages('IRkernel')
