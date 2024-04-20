@@ -22,8 +22,7 @@ JupyterLab is an integrated development environment (IDE) that provides a flexib
 # Starting JupyterLab
 ---
 
-On the bwVisu nav-bar click `Interactive Apps` --> `JupyterLab`.
-Than specify the resources and click `Launch`. This will open JupyterLab in your current web browser.
+On the bwVisu nav-bar click `Interactive Apps` --> `JupyterLab`. Than specify the resources and click `Launch`. This will open JupyterLab in your current web browser.
 
 ## The JupyterLab Interface
 ---
@@ -66,7 +65,60 @@ Markdown cells allow you to add formatted text to explain your code, using Markd
 # Tips and Tricks
 ---
 
-comese
+- Learn and use keyboard shortcuts to improve productivity in JupyterLab.
+- Customize the layout by dragging and resizing panels.
+
+## Advanced Mathematical Operations
+---
+
+JupyterLab supports LaTeX for advanced mathematical operations. For example, to display a complex mathematical equation:
+
+```{.LaTeX linenums="1" title="LaTeX"}
+\begin{equation}
+f(x)  = \int_{-\infty}^\infty
+    f\hat\xi\,e^{2 \pi i \xi x}
+    \,d\xi
+\end{equation}
+```
+
+**Which outputs:**
+
+\begin{equation}
+f(x)  = \int_{-\infty}^\infty
+    f\hat\xi\,e^{2 \pi i \xi x}
+    \,d\xi
+\end{equation}
+
+## Add packages via virtual environments
+---
+
+1. Open a terminal and type:
+   
+   ```bash
+   python3 -m venv <myEnv>
+   ```
+2. Activate your environment:
+   
+   ```bash
+   source <myEnv>/bin/activate
+   ```
+3. Install your packages:
+   
+   ```bash
+   pip install -U pip
+   pip install <mypackage>
+   ```
+4. Install the ipykernel package:
+   
+   ```bash
+   pip install ipykernel
+   ```
+5. Register your virtual environment as custom kernel to Jupyter:
+
+   ```bash
+   python3 -m ipykernel install --user --name=<myKernel>
+   ```
+
 
 
 
