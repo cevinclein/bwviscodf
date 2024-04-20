@@ -1,104 +1,90 @@
+**Table of Contents**
+
 [TOC]
 
-# Getting started with bwVisu
+# Introduction to RStudio
 ---
 
-This is some text $a^2 + b^2 = 3$ and then this text can be rendered
-as `with t()` and none can do that:
+RStudio is an IDE that supports the development and execution of R, a programming language for statistical computing and graphics. It enhances R's user experience by providing an organized workspace with tools for plotting, history, debugging, and workspace management. RStudio primarily supports the R programming language. However, it does provide integrated support for several other languages through various means, especially in the context of R Markdown documents and Shiny applications. 
 
-\begin{equation}
-\f\relax{x} = \int_{-\infty}^\infty
-    \f\hat\xi\,e^{2 \pi i \xi x}
-    \,d\xi
-\end{equation}
+## Key features
+---
 
-Now define some code:
+- Integrated R help and documentation.
+- Tools for plotting, history, debugging, and managing your workspace.
+- Supports Markdown, Shiny, and HTML.
+- Extensive package management.
 
-``` cpp
+## Starting RStudio
+---
 
-int main(){
-    return 0
-}
+Before starting RStudio, you can install/load R. If you want to use a specific version of R you can load a module or use a custom version from your home directory. For a custom R-version make sure you add it to the `PATH` and check that it is the default version by checking `R --version`. But this is just optionally.
 
+On the bwVisu nav-bar click `Interactive Apps` --> `RStusdio`. Than specify the resources and click `Launch`. This will open RStudio in your current web browser.
+
+# Navigating RStudio
+---
+
+**The RStudio interface is divided into four main panes:**
+
+- **Source Editor:** Where you write scripts and create documents.
+- **Console:** Where you can run R commands interactively.
+- **Environment/History:** Displays active variables and command history.
+- **Files/Plots/Packages/Help:** Manages files, shows plots, manages packages, and provides R help.
+
+**Basic Navigation:**
+
+- **Files Tab:** Browse, open, and manage files in your RStudio project.
+- **Plots Tab:** Visualize and manage graphical outputs from R.
+- **Help Tab:** Access R documentation and help for packages.
+
+# Working with R Packages
+---
+
+To install a new package in RStudio, you can use the install.packages() function in the Console pane. For example, to install the ggplot2 package:
+
+```R
+install.packages("ggplot2")
 ```
 
-## New section
+After installing a package, load it into the session to use its functions:
 
-***I'm italic and bold* I am just bold.**
+```R
+library(ggplot2)
+```
 
-***I'm bold and italic!** I am just italic.*
+# Writing and Running Code
+---
 
-H^2^0
+Click on `File` --> `New File` --> `R Script` --> to open a new script tab in the Source Editor. Or click ++ctrl+alt+shift+"N"++ to open a script. You can run R code directly in the Console, or write your code in the Source Editor and run it by pressing ++ctrl+enter++. To run the entire script, use the Source button. Example R code to plot data:
 
-text^a\ superscript^
+```{.R linenums="1" title="R"}
+data <- data.frame(x = 1:10, y = rnorm(10))
+plot(data$x, data$y, main = "Random Scatterplot", xlab = "X Axis", ylab = "Y Axis")
+```
 
-# dfdfsdf
+# Advanced Features
+---
 
-??? optional-class "Summary"
-    Here's some content.
+**R Markdown** allows you to combine narrative, code, and output into a single document. Create a new R Markdown file via `File` --> `New File` --> `R Markdown`. This document can be rendered into HTML, PDF, or Word.
 
-??? multiple optional-class "Summary"
-    Here's some content.
+## Using Shiny
+---
 
-:smile: :heart: :thumbsup:
+Shiny is a package that allows you to build interactive web apps straight from R. Start a new Shiny app via `File` --> `New File` --> `Shiny Web App`.
 
-++ctrl+alt+delete++
+Example basic Shiny application:
 
-## bbbb
+```{.R linenums="1" title="R"}
+library(shiny)
+ui <- fluidPage(
+  sliderInput("slider", "Choose a number", 1, 100, 50),
+  textOutput("result")
+)
+server <- function(input, output) {
+  output$result <- renderText({ paste("You selected", input$slider) })
+}
+shinyApp(ui = ui, server = server)
+```
 
-- Just paste links directly in the document like this: https://google.com.
-- Or even an email address: fake.email@email.com.
-
-
-# asasas
-
-> dwdw dwdwdw dwdw dw
-> dwdwdwdw
-> dwdwdwdwdwdwd
-> wdwdwdddddddddddwdwd
-    > dwdwd wdw dw dw d w dw dwd
-    dwdwdwdwdwdwd
-
-# dsdwd
-
-=== "Tab 1"
-    Markdown **content**.
-
-    Multiple paragraphs.
-
-=== "Tab 2"
-    More Markdown **content**.
-
-    - list item a
-    - list item b
-
-Task List
-
--   [X] item 1
-    *   [X] item A
-    *   [ ] item B
-        more text
-        +   [x] item a
-        +   [ ] item b
-        +   [x] item c
-    *   [X] item C
--   [ ] item 2
--   [ ] item 3
-
-CH~3~CH~2~OH
-
-text~a\ subscript~
-
-# sssss
-
-1. swsws
-2. wswws
-   1. swswws
-   2. dwdw
-   3. dwwd
-3. ssss
-4. ssss
-
-==mark me==
-
-==smart==mark==
+Shiny is particularly well-suited for turning statistical analyses into interactive visualization apps, which can be an excellent way for data scientists to communicate their findings non-technically.
