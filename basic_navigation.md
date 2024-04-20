@@ -12,6 +12,8 @@ bwVisu is quite simple and intuitively designed to make launching apps on the cl
 
 In the navigation bar, the user has the following options:
 
+`Files` &mdash; `Interactive Apps` &mdash; `All Apps` &mdash; `My Interactive Sessions`
+
 - **Files:** Here, the user has access to their home directory. In a graphical user interface, files can be downloaded and uploaded, and new files and folders can be created.
 - **Interactive apps:** This displays the apps that the user can run on the cluster, possibly across multiple nodes. These apps initiate an interactive session which the user can directly connect to and, depending on the app, receive a graphical interface.
 - **All Apps**: This shows all available apps.
