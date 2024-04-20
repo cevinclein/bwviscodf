@@ -8,8 +8,6 @@
 
 bwVisu is quite simple and intuitively designed to make launching apps on the cluster as user-friendly as possible. Once you have successfully logged into bwVisu, the first thing you see is the dashboard. The dashboard presents a selection of available apps that the user can launch.
 
-![bwVisu-Panel](bwVisu-Wiki/images/bwVisu_panel.png){.responsive}
-
 In the navigation bar, the user has the following options:
 
 `Files` &mdash; `Interactive Apps` &mdash; `All Apps` &mdash; `My Interactive Sessions`
