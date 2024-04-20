@@ -94,30 +94,113 @@ f(x)  = \int_{-\infty}^\infty
 
 1. Open a terminal and type:
    
-   ```bash
-   python3 -m venv <myEnv>
-   ```
+```bash
+python3 -m venv <myEnv>
+```
+
 2. Activate your environment:
    
-   ```bash
-   source <myEnv>/bin/activate
-   ```
+```bash
+source <myEnv>/bin/activate
+```
+
 3. Install your packages:
    
-   ```bash
-   pip install -U pip
-   pip install <mypackage>
-   ```
+```bash
+pip install -U pip
+pip install <mypackage>
+```
+
 4. Install the ipykernel package:
    
-   ```bash
-   pip install ipykernel
-   ```
+```bash
+pip install ipykernel
+```
+
 5. Register your virtual environment as custom kernel to Jupyter:
 
-   ```bash
-   python3 -m ipykernel install --user --name=<myKernel>
+```bash
+python3 -m ipykernel install --user --name=<myKernel>
+```
+
+## Add packages via miniconda
+---
+
+1. Load the miniconda module by clicking first on the blue hexagon icon on the left-hand side of Jupyter's start page and then on the "load" Button right of the entry for miniconda in the software module menu.
+
+2. Open a terminal and type:
+    
+```bash
+conda create --name <myenv>
+```
+
+3. Activate your environment:
+    
+```bash
+conda activate <myenv>
+```
+
+4. Install your packages:
+   
+```bash
+conda install <mypackage>
+```
+
+5. Install the ipykernel package:
+   
+```bash
+conda install ipykernel
+```
+
+6. Register your virtual environment as custom kernel to Jupyter:
+   
+```bash
+python3 -m ipykernel install --user --name=<myKernel>
+```
+
+## How to update the python version
+---
+
+1. Activate the Miniconda.
+
+2. Create a virtual environment with a custom python version via conda:
+
+```bash
+conda create --name <myenv> python=<python version>
+```
+
+3. Install the ipykernel package:
+
+```bash
+conda install ipykernel
+```
+
+4. Register your virtual environment as custom kernel to Jupyter:
+   
+```bash
+python3 -m ipykernel install --user --name=<myKernel>
+```
+
+5. Select your newly created kernel in Jupyter
+
+## How to use R in Jupyter
+---
+
+1. On the cluster:
    ```
+   $ module load math/R
+   $ R
+   > install.packages('IRkernel')
+   ```
+2. On bwVisu:
+    1. Start Jupyter App
+    2. In left menu: load math/R
+    3. Open Console:
+    ```
+    $ R
+    > IRkernel::installspec(displayname = 'R 4.2')
+    ```
+    4. Start kernel 'R 4.2' as console or notebook
 
 
 
